@@ -1,0 +1,55 @@
+body {
+  font-family: 'ubuntu';
+}
+
+.game {
+  text-align: center;
+}
+
+.square {
+  min-width: 150px;
+  min-height: 150px;
+  background-color: #fff;
+  border: 2px solid #dedede;
+  box-shadow: 6px 6px 28px 0px #dcdad7;
+  margin: 5px;
+  font-size: 87px;
+  color: #adadad;
+  font-weight: 550;
+}
+
+.game-board {
+  width: 50%;
+  display: inline-block;
+  padding-top: 60px;
+}
+
+.game-info {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.heading {
+  color: #ababab;
+}
+
+.status {
+  padding-bottom: 20px;
+  font-size: 32px;
+  color: #ababab;
+  text-align: center;
+}
+
+.moves {
+  border: 2px solid #dedede;
+  width: 100%;
+  padding: 12px;
+  font-size: 20px;
+  text-align: left;
+  color: #888;
+  background: #fff;
+  box-shadow: 0px 0px 33px -14px #6f6a6a;
+  margin: -7px;
+}
